@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    " R ",
+    " C "
+  ],
+  "key": {
+      "L": {
+        "item": "tribulationmod:lense"
+      },
+      "R": {
+        "item": "tribulationmod:sapphire"
+      },
+      "C": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "tribulationmod:sapphire_led"
+    }
+}

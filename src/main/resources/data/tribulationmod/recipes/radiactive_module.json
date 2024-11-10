@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " L ",
+    "RCG",
+    " B "
+  ],
+  "key": {
+      "L": {
+        "item": "tribulationmod:citrine_led"
+      },
+      "R": {
+        "item": "tribulationmod:radioactive_cell"
+      },
+      "C": {
+        "item": "tribulationmod:circuit"
+      },
+      "G": {
+        "item": "tribulationmod:citrine"
+      },
+      "B": {
+        "item": "tribulationmod:battery"
+      }
+    },
+    "result": {
+      "item": "tribulationmod:radioactive_module"
+    }
+}

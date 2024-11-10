@@ -1,5 +1,33 @@
 {
   "item.tribulationmod.raw_sapphire": "Raw Sapphire",
   "item.tribulationmod.sapphire": "Sapphire",
-  "creativetab.tribulation_tab": "Sapphire Tribulation Tab"
+  "item.tribulationmod.bot_module": "Module of Bot",
+  "item.tribulationmod.controller": "Controller",
+  "item.tribulationmod.circuit": "Curcuit",
+  "item.tribulationmod.ruby_led": "Ruby LED",
+  "item.tribulationmod.wire": "Wire",
+  "item.tribulationmod.sapphire_hammer": "Sapphire Hammer",
+  "item.tribulationmod.sapphire_led": "Sapphire LED",
+  "item.tribulationmod.citrine_led": "Citrine LED",
+  "item.tribulationmod.battery": "Battery",
+  "item.tribulationmod.power_cell": "Power Cell",
+  "item.tribulationmod.infraded_glasses": "Infraded Glasses",
+  "item.tribulationmod.lense": "Lense",
+  "item.tribulationmod.radioactive_cell": "Radioactive Cell",
+  "item.tribulationmod.radioactive_module": "Module of Radiation",
+  "item.tribulationmod.citrine_rod": "Citrine Rod",
+  "item.tribulationmod.ruby": "Ruby",
+  "item.tribulationmod.citrine": "Citrine",
+  "item.tribulationmod.moonstone": "Moonstone",
+  "item.tribulationmod.onyx": "Onyx",
+
+  "block.tribulationmod.sapphire_block": "Block of Sapphire",
+  "block.tribulationmod.ruby_block": "Block of Ruby",
+  "block.tribulationmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.tribulationmod.sapphire_ore": "Sapphire Ore",
+  "block.tribulationmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.tribulationmod.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.tribulationmod.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
+  "creativetab.tribulation_tab": "Tribulation Tab"
 }

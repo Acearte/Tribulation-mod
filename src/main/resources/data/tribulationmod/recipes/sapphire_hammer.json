@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SsS",
+    " A ",
+    " A "
+  ],
+  "key": {
+    "S": {
+      "item": "tribulationmod:sapphire_block"
+      },
+    "s": {
+      "item": "tribulationmod:sapphire"
+    },
+    "A" :{
+      "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "tribulationmod:sapphire_hammer"
+    }
+}

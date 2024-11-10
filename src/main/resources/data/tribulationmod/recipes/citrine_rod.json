@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    " C ",
+    "   "
+  ],
+  "key": {
+      "C": {
+        "item": "tribulationmod:citrine"
+      }
+    },
+    "result": {
+      "item": "tribulationmod:citrine_rod"
+    }
+}
