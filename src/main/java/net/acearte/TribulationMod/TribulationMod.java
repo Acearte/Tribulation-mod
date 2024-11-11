@@ -74,6 +74,8 @@ public class TribulationMod {
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModItems.SAPPHIRE_HAMMER);
+            event.accept(ModItems.METAL_DETECTOR);
+
         }
     }
 

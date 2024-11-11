@@ -1,8 +1,10 @@
 package net.acearte.TribulationMod.item;
 
 import net.acearte.TribulationMod.TribulationMod;
+import net.acearte.TribulationMod.item.custom.MetalDetectorItem;
 import net.minecraft.util.profiling.metrics.profiling.InactiveMetricsRecorder;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.RecordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,6 +23,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
 
     // Technologies
     public static final RegistryObject<Item> BOT_MODULE = ITEMS.register("bot_module",
@@ -47,12 +53,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CITRINE_ROD = ITEMS.register("citrine_rod",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SAPPHIRE_HAMMER = ITEMS.register("sapphire_hammer",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CITRINE_LED = ITEMS.register("citrine_led",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RADIOACTIVE_MODULE = ITEMS.register("radioactive_module",
             () -> new Item(new Item.Properties()));
+
+    //TOOLS
+    public static final RegistryObject<Item> SAPPHIRE_HAMMER = ITEMS.register("sapphire_hammer",
+            () -> new PickaxeItem(ModTiers.SAPPHIRE, 1, 1f,
+                    new Item.Properties()));
     //GEMS
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item((new Item.Properties())));
