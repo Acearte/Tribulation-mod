@@ -42,13 +42,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RADIOACTIVE_MODULE = ITEMS.register("radioactive_module",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MUSHROOM_MODULE = ITEMS.register("",
+    public static final RegistryObject<Item> MUSHROOM_MODULE = ITEMS.register("mushroom_module",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> FROZEN_CORE = ITEMS.register("",
+    public static final RegistryObject<Item> FROZEN_CORE = ITEMS.register("frozen_core",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> FROZEN_MODULE = ITEMS.register("",
+    public static final RegistryObject<Item> FROZEN_MODULE = ITEMS.register("frozen_module",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> TRANSFER_NODE = ITEMS.register("**",
+    public static final RegistryObject<Item> TRANSFER_NODE = ITEMS.register("transfer_node",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DRILL_CASE = ITEMS.register("drill_case",
             () -> new Item(new Item.Properties()));
     
     //GEMS
